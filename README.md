@@ -1,11 +1,13 @@
 # Tray Icon Manager
 
-This project is a utility for managing Windows system tray icons using the Windows API. The primary functionality includes deleting and restoring tray icons for specific applications, leveraging `Shell_NotifyIcon()` for interacting with the system tray.
 
-## Features
-- **Delete Tray Icons**: Automatically find and remove tray icons associated with a specific application or process.
-- **Restore Tray Icons**: Restore previously deleted tray icons using the `NIM_ADD` message.
-- **Process and Window Management**: Uses Windows API functions such as `EnumWindows()` and `GetWindowThreadProcessId()` to locate target windows.
+Hiding the tray or desktop icon of an application is an effective way to enhance user experience, ensuring the application continues to run in the background while giving users more control over the look and feel of their desktop.
+
+### 1. Keep the Application Running in the Background
+Hiding the icon does not mean the application is closed. The program will continue to perform its tasks in the background, such as file backups, system monitoring, or automatic updates. Users can freely manage their desktop layout without worrying that hiding the icon will affect the program’s functionality. This "visual invisibility" ensures that critical background services remain uninterrupted and stable.
+
+### 2. Personalized Desktop Design
+For users who prefer a minimalist or personalized desktop design, hiding unnecessary icons reduces visual clutter and optimizes the desktop appearance. Users can choose which icons to display and which to hide based on their preferences, creating a clean and organized workspace that enhances both enjoyment and productivity.
 
 ## Prerequisites
 
