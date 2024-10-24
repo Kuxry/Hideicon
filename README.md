@@ -3,6 +3,7 @@
 
 Hiding the tray or desktop icon of an application is an effective way to enhance user experience, ensuring the application continues to run in the background while giving users more control over the look and feel of their desktop.
 
+## Feature：
 ### 1. Keep the Application Running in the Background
 Hiding the icon does not mean the application is closed. The program will continue to perform its tasks in the background, such as file backups, system monitoring, or automatic updates. Users can freely manage their desktop layout without worrying that hiding the icon will affect the program’s functionality. This "visual invisibility" ensures that critical background services remain uninterrupted and stable.
 
