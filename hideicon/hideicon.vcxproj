@@ -128,7 +128,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="getuid.cpp" />
-    <ClCompile Include="Getuid_Hideicon_v1.cpp" />
+    <ClCompile Include="Getuid_Hideicon_v0.1.cpp" />
+    <ClCompile Include="Getuid_Hideicon_v0.2.cpp" />
     <ClCompile Include="hideicon.cpp" />
     <ClCompile Include="hideprocess.cpp" />
     <ClCompile Include="recovericon.cpp" />

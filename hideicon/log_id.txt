@@ -23,3 +23,116 @@
 找到窗口，句柄: 000000000006044C
 找到窗口，句柄: 00000000000605F6
 成功删除托盘图标，uID: 194
+找到窗口，句柄: 00000000000C0C2A
+找到窗口，句柄: 00000000000304D4
+找到窗口，句柄: 000000000003052E
+找到窗口，句柄: 00000000000304CC
+找到窗口，句柄: 0000000000020546
+找到窗口，句柄: 0000000000020544
+找到窗口，句柄: 000000000002054A
+找到窗口，句柄: 0000000000020248
+找到窗口，句柄: 00000000000300D8
+找到窗口，句柄: 00000000000300D6
+找到窗口，句柄: 000000000006044C
+找到窗口，句柄: 00000000000605F6
+找到窗口，句柄: 00000000000400FE
+找到窗口，句柄: 0000000000020530
+找到窗口，句柄: 00000000001C0422
+找到窗口，句柄: 00000000000205A8
+找到窗口，句柄: 0000000000040042
+找到窗口，句柄: 00000000000C0C2A
+找到窗口，句柄: 00000000000304D4
+找到窗口，句柄: 000000000003052E
+找到窗口，句柄: 00000000000304CC
+找到窗口，句柄: 0000000000020546
+找到窗口，句柄: 0000000000020544
+找到窗口，句柄: 000000000002054A
+找到窗口，句柄: 0000000000020248
+找到窗口，句柄: 00000000000300D8
+找到窗口，句柄: 00000000000300D6
+找到窗口，句柄: 000000000006044C
+找到窗口，句柄: 00000000000605F6
+成功删除托盘图标，uID: 194
+找到窗口，句柄: 00000000000C0C2A
+找到窗口，句柄: 00000000000304D4
+找到窗口，句柄: 000000000003052E
+找到窗口，句柄: 00000000000304CC
+找到窗口，句柄: 0000000000020546
+找到窗口，句柄: 0000000000020544
+找到窗口，句柄: 000000000002054A
+找到窗口，句柄: 0000000000020248
+找到窗口，句柄: 00000000000300D8
+找到窗口，句柄: 00000000000300D6
+找到窗口，句柄: 000000000006044C
+找到窗口，句柄: 00000000000605F6
+成功删除托盘图标，uID: 194
+Found window, handle: 0x2d0b9c
+Found window, handle: 0x2e0b8a
+Found window, handle: 0x204c2
+Found window, handle: 0x405dc
+Found window, handle: 0x2049a
+Found window, handle: 0x20498
+Found window, handle: 0x20518
+Found window, handle: 0x204ba
+Found window, handle: 0x204c0
+Found window, handle: 0x20522
+Found window, handle: 0x304b2
+Found window, handle: 0x204fe
+Found window, handle: 0x3048a
+Found window, handle: 0x204b8
+Found window, handle: 0x2d0b9c
+Found window, handle: 0x2e0b8a
+Found window, handle: 0x204c2
+Found window, handle: 0x405dc
+Found window, handle: 0x2049a
+Found window, handle: 0x20498
+Found window, handle: 0x20518
+Found window, handle: 0x204ba
+Found window, handle: 0x204c0
+Found window, handle: 0x20522
+Found window, handle: 0x304b2
+Found window, handle: 0x204fe
+Found window, handle: 0x3048a
+Found window, handle: 0x204b8
+Found window, handle: 0x2d0b9c
+Found window, handle: 0x2e0b8a
+Found window, handle: 0x204c2
+Found window, handle: 0x405dc
+Found window, handle: 0x2049a
+Found window, handle: 0x20498
+Found window, handle: 0x20518
+Found window, handle: 0x204ba
+Found window, handle: 0x204c0
+Found window, handle: 0x20522
+Found window, handle: 0x304b2
+Found window, handle: 0x204fe
+Found window, handle: 0x3048a
+Found window, handle: 0x204b8
+Found window, handle: 0x2d0b9c
+Found window, handle: 0x2e0b8a
+Found window, handle: 0x204c2
+Found window, handle: 0x405dc
+Found window, handle: 0x2049a
+Found window, handle: 0x20498
+Found window, handle: 0x20518
+Found window, handle: 0x204ba
+Found window, handle: 0x204c0
+Found window, handle: 0x20522
+Found window, handle: 0x304b2
+Found window, handle: 0x204fe
+Found window, handle: 0x3048a
+Found window, handle: 0x204b8
+Found window, handle: 0x2d0b9c
+Found window, handle: 0x2e0b8a
+Found window, handle: 0x204c2
+Found window, handle: 0x405dc
+Found window, handle: 0x2049a
+Found window, handle: 0x20498
+Found window, handle: 0x20518
+Found window, handle: 0x204ba
+Found window, handle: 0x204c0
+Found window, handle: 0x20522
+Found window, handle: 0x304b2
+Found window, handle: 0x204fe
+Found window, handle: 0x3048a
+Found window, handle: 0x204b8

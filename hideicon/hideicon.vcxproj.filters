@@ -18,16 +18,19 @@
     <ClCompile Include="hideicon.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="getuid.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="recovericon.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="hideprocess.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Getuid_Hideicon_v1.cpp">
+    <ClCompile Include="Getuid_Hideicon_v0.2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="getuid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Getuid_Hideicon_v0.1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
