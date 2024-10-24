@@ -3,65 +3,67 @@
 //#include <iostream>
 //#include <fstream>
 //
+//// Callback function for enumerating windows
 //BOOL CALLBACK EnumWindowsProc(HWND hwnd, LPARAM lParam) {
 //    DWORD processId;
 //    GetWindowThreadProcessId(hwnd, &processId);
 //
-//    if (processId == (DWORD)lParam) {  // 检查是否是目标进程
+//    if (processId == (DWORD)lParam) {  // Check if it's the target process
 //        std::ofstream logFile("log_id.txt", std::ios::app);
-//        logFile << "找到窗口，句柄: " << hwnd << std::endl;
+//        logFile << "Window found, handle: " << hwnd << std::endl;
 //
 //        NOTIFYICONDATA nid = {};
 //        nid.cbSize = sizeof(NOTIFYICONDATA);
 //        nid.hWnd = hwnd;
 //
-//        // 遍历多个 uID 尝试删除托盘图标
+//        // Iterate through multiple uIDs to attempt to delete the tray icon
 //        for (UINT uID = 0; uID < 1000; ++uID) {
 //            nid.uID = uID;
 //            if (Shell_NotifyIcon(NIM_DELETE, &nid)) {
-//                logFile << "成功删除托盘图标，uID: " << uID << std::endl;
+//                logFile << "Successfully deleted tray icon, uID: " << uID << std::endl;
 //                logFile.close();
-//                return FALSE;  // 找到后停止遍历
+//                std::cout << "Successfully deleted tray icon, uID: " << uID << std::endl;
+//                return FALSE;  // Stop enumeration after finding
 //            }
 //        }
 //
 //        logFile.close();
 //    }
-//    return TRUE;  // 继续遍历其他窗口
+//    return TRUE;  // Continue enumerating other windows
 //}
 //
 //int main() {
-//    // 打开文件记录日志
+//    // Open file to record logs
 //    std::ofstream logFile("log.txt");
-//    std::streambuf* coutBuf = std::cout.rdbuf();  // 保存标准输出缓冲区
-//    std::streambuf* cerrBuf = std::cerr.rdbuf();  // 保存标准错误缓冲区
+//    std::streambuf* coutBuf = std::cout.rdbuf();  // Save the standard output buffer
+//    std::streambuf* cerrBuf = std::cerr.rdbuf();  // Save the standard error buffer
 //
-//    std::cout.rdbuf(logFile.rdbuf());  // 重定向 std::cout 到文件
-//    std::cerr.rdbuf(logFile.rdbuf());  // 重定向 std::cerr 到文件
+//    std::cout.rdbuf(logFile.rdbuf());  // Redirect std::cout to the file
+//    std::cerr.rdbuf(logFile.rdbuf());  // Redirect std::cerr to the file
 //
-//    // 通过窗口标题找到窗口句柄
-//    const wchar_t* windowTitle = L"Splashtop® Streamer";  // 替换为实际窗口标题
+//    // Find window handle by window title
+//    const wchar_t* windowTitle = L"Splashtop® Streamer";  // Replace with the actual window title
 //    HWND hWnd = FindWindow(NULL, windowTitle);
 //    if (hWnd == NULL) {
-//        std::cerr << "未找到窗口: " << windowTitle << std::endl;
-//        std::cout.rdbuf(coutBuf);  // 恢复标准输出
-//        std::cerr.rdbuf(cerrBuf);  // 恢复标准错误
+//        std::cerr << "Window not found: " << windowTitle << std::endl;
+//        std::cout.rdbuf(coutBuf);  // Restore standard output
+//        std::cerr.rdbuf(cerrBuf);  // Restore standard error
 //        logFile.close();
 //        return 1;
 //    }
 //    else {
-//        std::cout << "找到窗口: " << windowTitle << "，句柄: " << hWnd << std::endl;
+//        std::cout << "Window found: " << windowTitle << ", handle: " << hWnd << std::endl;
 //    }
 //
-//    // 获取窗口的进程ID
+//    // Get the process ID of the window
 //    DWORD processId;
 //    GetWindowThreadProcessId(hWnd, &processId);
-//    std::cout << "窗口所属进程ID: " << processId << std::endl;
+//    std::cout << "Process ID of the window: " << processId << std::endl;
 //
-//    // 枚举所有窗口，查找属于目标进程的窗口并删除托盘图标
+//    // Enumerate all windows to find windows belonging to the target process and delete tray icons
 //    EnumWindows(EnumWindowsProc, (LPARAM)processId);
 //
-//    // 恢复标准输出和标准错误流
+//    // Restore the standard output and standard error streams
 //    std::cout.rdbuf(coutBuf);
 //    std::cerr.rdbuf(cerrBuf);
 //

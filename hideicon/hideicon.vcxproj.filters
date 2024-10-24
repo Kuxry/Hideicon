@@ -34,4 +34,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\OneDrive - 筑波大学\桌面\app\hideicon.exe">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="D:\OneDrive - 筑波大学\桌面\app\hideicon-re.exe">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
 </Project>
